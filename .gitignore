@@ -1,4 +1,4 @@
 *.txt
 *.lnk
 *.json
-__pycache__\*
+*__pycache__\*
