@@ -1,2 +1,2 @@
 # VkBdays
-work with Vk API 
+work with Vk API by token for displaying friends birthdays
