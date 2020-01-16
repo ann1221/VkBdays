@@ -30,8 +30,3 @@ class Error(object):
             if str(v) == str(inpValue):
                 return k
         return None
-        
-    
-if __name__ == '__main__':
-    print(Error.message['File'])
-    print(Error.Search('Файл не был найден'))

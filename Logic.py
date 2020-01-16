@@ -44,7 +44,7 @@ class VkClient(object):
             print(persData)
             if self.__isHavePrincipOpts(persData, options):
                 topList.append(persData)
-            sleep(0.5)
+            sleep(0.4)
         return topList
     
     def __isHavePrincipOpts(self, list, options):
@@ -163,7 +163,7 @@ class VkClient(object):
             if int(i['id']) == int(ID):
                 return count
             count+=1
-        return MyErrors.Error.Search['Nothing']
+        return MyErrors.Error.Search('Nothing')
 
     def __ConvToTopFormat(self, ind):
         friendsList = self.GetFriendsList()
